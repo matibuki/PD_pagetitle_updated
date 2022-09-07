@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bd5cc5-f5a2-4e5a-ba84-865c027409de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f0bd5cc5-f5a2-4e5a-ba84-865c027409de" name="Changes" comment="add logging">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DriverStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DriverStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageTitleTest.java" afterDir="false" />
@@ -43,18 +42,39 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mbukowski2/IdeaProjects/PD_pagetitle/src/main/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PageTitleTest.websiteTitleTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mbukowski2\IdeaProjects\PD_pagetitle\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PageTitleTest.pageTitleTest">
     <configuration name="PageTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD_pagetitle" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PageTitleTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTitleTest.pageTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PD_pagetitle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageTitleTest" />
+      <option name="METHOD_NAME" value="pageTitleTest(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,12 +113,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.PageTitleTest.pageTitleTest" />
       <item itemvalue="JUnit.PageTitleTest" />
       <item itemvalue="JUnit.PageTitleTest.websiteTitleTest" />
       <item itemvalue="Maven.PD_pagetitle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PageTitleTest.pageTitleTest" />
         <item itemvalue="JUnit.PageTitleTest.websiteTitleTest" />
         <item itemvalue="JUnit.PageTitleTest" />
       </list>
@@ -113,7 +135,18 @@
       <option name="presentableId" value="Default" />
       <updated>1661926143705</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1662123877721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662123877721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -125,5 +158,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <MESSAGE value="add logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logging" />
   </component>
 </project>
